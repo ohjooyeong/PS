@@ -1,4 +1,4 @@
-# Longest_Consecutive_Sequence 128
+# Longest_Consecutive_Sequence 128 LeetCode
 
 
 def longestConsecutive(nums):
