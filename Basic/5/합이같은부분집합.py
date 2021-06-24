@@ -30,6 +30,8 @@ print(ans)
 
 
 # def dfs(L, sum):
+#     if sum > total // 2:
+#         return
 #     if L == n:
 #         if sum == (total - sum):
 #             print("YES")
