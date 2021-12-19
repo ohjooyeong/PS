@@ -45,8 +45,8 @@ def solution(row, columns, queries):
     return answer
 
 
-# row = 6
-# columns = 6
-# query = [[2, 2, 5, 4], [3, 3, 6, 6], [5, 1, 6, 3]]
+row = 6
+columns = 6
+query = [[2, 2, 5, 4], [3, 3, 6, 6], [5, 1, 6, 3]]
 
-# print(solution(row, columns, query))
+print(solution(row, columns, query))

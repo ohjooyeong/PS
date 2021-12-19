@@ -3,14 +3,14 @@
 n = int(input())
 
 dis = list(map(int, input().split()))
-oil = list(map(int, input().split()))
+oilCost = list(map(int, input().split()))
 
-minOil = oil[0]
+minOilCost = oilCost[0]
 sum = 0
 
 for i in range(n - 1):
-    if minOil > oil[i]:
-        minOil = oil[i]
-    sum += minOil * dis[i]
+    if minOilCost > oilCost[i]:
+        minOilCost = oilCost[i]
+    sum += minOilCost * dis[i]
 
 print(sum)
