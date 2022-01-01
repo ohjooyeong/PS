@@ -3,7 +3,7 @@
 n = int(input())
 dp = [[0] * 10 for _ in range(n)]
 
-dp[0] = [0, 1, 1, 1, 1, 1, 1, 1, 1, 1]  # 맨 뒤에 올 수 있는 숫자를 dp로 함
+dp[0] = [0, 1, 1, 1, 1, 1, 1, 1, 1, 1]  # 맨 앞에 올 수 있는 숫자를 dp로 함
 
 for i in range(1, n):
     for j in range(10):
