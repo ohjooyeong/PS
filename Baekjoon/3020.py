@@ -34,6 +34,7 @@ def check_stone(h, arr):
 
 cnt = 0
 
+
 for i in range(1, h + 1):
     bottom_cnt = check_stone(i - 1, bottom)
     top_cnt = check_stone(h - i, top)
