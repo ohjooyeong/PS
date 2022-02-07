@@ -1,3 +1,6 @@
+# k진수에서 소수 개수 구하기
+
+
 def is_prime(n):
     if n == 0 or n == 1:
         return False
