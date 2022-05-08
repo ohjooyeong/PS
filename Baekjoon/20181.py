@@ -1,4 +1,4 @@
-# 꿈틀꿈틀 호석 애벌레 백준
+# 꿈틀꿈틀 호석 애벌레 백준 20181
 
 import sys
 
@@ -23,7 +23,6 @@ while rt <= n:
             break
 
         sum_value += arr[rt]
-        print(rt, sum_value)
         rt += 1
 
 print(dp[n])
